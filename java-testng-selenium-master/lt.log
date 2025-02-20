@@ -1,0 +1,670 @@
+{"level":"info","time":"2024-10-08T17:56:05.462+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2024-10-08T17:56:05.466+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-10-08T17:56:05.466+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-10-08T17:56:05.466+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-10-08T17:56:05.466+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 61592 --callbackURL http://127.0.0.1:61593 --tunnelName MavenSingle"}
+{"level":"debug","time":"2024-10-08T17:56:06.362+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2024-10-08T17:56:06.434+0530","caller":"custom/setup.go:918","msg":"Starting sink proxy"}
+{"level":"debug","time":"2024-10-08T17:56:06.434+0530","caller":"networkscanner/setup.go:103","msg":"Trying on port 443"}
+{"level":"debug","time":"2024-10-08T17:56:06.434+0530","caller":"networkscanner/setup.go:69","msg":"Trying on port 22"}
+{"level":"debug","time":"2024-10-08T17:56:06.435+0530","caller":"apiserver/setup.go:166","msg":"Starting API server"}
+{"level":"debug","time":"2024-10-08T17:56:06.435+0530","caller":"callback/setup.go:54","msg":"Starting the callback agent"}
+{"level":"debug","time":"2024-10-08T17:56:06.435+0530","caller":"networkscanner/setup.go:191","msg":"Trying on port 443"}
+{"level":"debug","time":"2024-10-08T17:56:06.435+0530","caller":"networkscanner/setup.go:137","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2024-10-08T17:56:06.435+0530","caller":"apiserver/setup.go:148","msg":"Starting API server for tunnel info on port: 61592"}
+{"level":"info","time":"2024-10-08T17:56:06.437+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :9090"}
+{"level":"debug","time":"2024-10-08T17:56:06.512+0530","caller":"networkscanner/setup.go:207","msg":"TCP connection was successful"}
+{"level":"debug","time":"2024-10-08T17:56:06.627+0530","caller":"networkscanner/setup.go:154","msg":"WSS connection was successful"}
+{"level":"debug","time":"2024-10-08T17:56:07.598+0530","caller":"networkscanner/setup.go:124","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2024-10-08T17:56:07.650+0530","caller":"networkscanner/setup.go:179","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2024-10-08T17:56:07.705+0530","caller":"networkscanner/setup.go:90","msg":"SSH connection over port 22 successful"}
+{"level":"info","time":"2024-10-08T17:56:07.706+0530","caller":"core/lifecycle.go:121","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2024-10-08T17:56:07.706+0530","caller":"core/lifecycle.go:271","msg":"Launching tunnel"}
+{"level":"debug","time":"2024-10-08T17:56:07.708+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2024-10-08T17:56:08.570+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2024-10-08T17:56:08.570+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2024-10-08T17:56:10.107+0530","caller":"tunnelmanager/controller.go:150","msg":"otel disabled"}
+{"level":"debug","time":"2024-10-08T17:56:10.108+0530","caller":"core/lifecycle.go:370","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2024-10-08T17:56:10.108+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2024-10-08T17:56:10.108+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2024-10-08T17:56:10.108+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2024-10-08T17:56:11.461+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 15446"}
+{"level":"debug","time":"2024-10-08T17:56:11.461+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 7845"}
+{"level":"debug","time":"2024-10-08T17:56:11.461+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 24176"}
+{"level":"debug","time":"2024-10-08T17:56:11.461+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 24127"}
+{"level":"debug","time":"2024-10-08T17:56:11.461+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 24951"}
+{"level":"info","time":"2024-10-08T17:56:11.461+0530","caller":"core/lifecycle.go:393","msg":"You can start testing now"}
+{"level":"info","time":"2024-10-08T17:56:11.461+0530","caller":"core/lifecycle.go:394","msg":"Tunnel ID: 2589538"}
+{"level":"debug","time":"2024-10-08T17:56:11.461+0530","caller":"core/lifecycle.go:395","msg":"Remote Listener Started on Port 15370"}
+{"level":"error","time":"2024-10-08T17:56:20.650+0530","caller":"callback/setup.go:96","msg":"ERR::API::WEB::HOK : Unable to call webhook url :  \nPost \"http://127.0.0.1:61593\": EOF "}
+{"level":"debug","time":"2024-10-08T17:56:29.414+0530","caller":"core/lifecycle.go:437","msg":"Context cancelled"}
+{"level":"info","time":"2024-10-08T17:56:29.414+0530","caller":"core/lifecycle.go:439","msg":"Stopping tunnel"}
+{"level":"debug","time":"2024-10-08T17:56:29.414+0530","caller":"custom/setup.go:906","msg":"Exiting the sink proxy","tunnelID":"2589538"}
+{"level":"debug","time":"2024-10-08T17:56:29.414+0530","caller":"callback/setup.go:118","msg":"Shutting down the callback agent"}
+{"level":"debug","time":"2024-10-08T17:56:29.414+0530","caller":"apiserver/setup.go:144","msg":"Shutting down the server"}
+{"level":"debug","time":"2024-10-08T17:56:29.415+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2024-10-08T17:56:29.415+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"info","time":"2024-10-08T17:56:30.687+0530","caller":"core/lifecycle.go:446","msg":"Tunnel stopped successfully"}
+{"level":"debug","time":"2024-10-08T17:56:30.687+0530","caller":"core/lifecycle.go:448","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-10-08T17:56:30.687+0530","caller":"core/lifecycle.go:449","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-10-08T17:56:30.687+0530","caller":"core/lifecycle.go:451","msg":"All goroutines exited"}
+{"level":"debug","time":"2024-10-08T17:56:30.688+0530","caller":"cmd/lt.go:263","msg":"main: all goroutines have finished."}
+{"level":"info","time":"2024-10-08T17:57:29.749+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2024-10-08T17:57:29.750+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-10-08T17:57:29.750+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-10-08T17:57:29.750+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-10-08T17:57:29.750+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 61684 --callbackURL http://127.0.0.1:61685 --tunnelName MavenSingle"}
+{"level":"debug","time":"2024-10-08T17:57:30.340+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2024-10-08T17:57:30.601+0530","caller":"apiserver/setup.go:166","msg":"Starting API server"}
+{"level":"debug","time":"2024-10-08T17:57:30.601+0530","caller":"apiserver/setup.go:148","msg":"Starting API server for tunnel info on port: 61684"}
+{"level":"debug","time":"2024-10-08T17:57:30.601+0530","caller":"custom/setup.go:918","msg":"Starting sink proxy"}
+{"level":"debug","time":"2024-10-08T17:57:30.601+0530","caller":"networkscanner/setup.go:137","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2024-10-08T17:57:30.601+0530","caller":"callback/setup.go:54","msg":"Starting the callback agent"}
+{"level":"debug","time":"2024-10-08T17:57:30.602+0530","caller":"networkscanner/setup.go:191","msg":"Trying on port 443"}
+{"level":"debug","time":"2024-10-08T17:57:30.601+0530","caller":"networkscanner/setup.go:69","msg":"Trying on port 22"}
+{"level":"debug","time":"2024-10-08T17:57:30.601+0530","caller":"networkscanner/setup.go:103","msg":"Trying on port 443"}
+{"level":"info","time":"2024-10-08T17:57:30.604+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :9090"}
+{"level":"debug","time":"2024-10-08T17:57:30.657+0530","caller":"networkscanner/setup.go:207","msg":"TCP connection was successful"}
+{"level":"debug","time":"2024-10-08T17:57:30.780+0530","caller":"networkscanner/setup.go:154","msg":"WSS connection was successful"}
+{"level":"debug","time":"2024-10-08T17:57:31.649+0530","caller":"networkscanner/setup.go:124","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2024-10-08T17:57:31.780+0530","caller":"networkscanner/setup.go:179","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2024-10-08T17:57:31.825+0530","caller":"networkscanner/setup.go:90","msg":"SSH connection over port 22 successful"}
+{"level":"info","time":"2024-10-08T17:57:31.825+0530","caller":"core/lifecycle.go:121","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2024-10-08T17:57:31.825+0530","caller":"core/lifecycle.go:271","msg":"Launching tunnel"}
+{"level":"debug","time":"2024-10-08T17:57:31.826+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2024-10-08T17:57:32.590+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2024-10-08T17:57:32.591+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2024-10-08T17:57:34.146+0530","caller":"tunnelmanager/controller.go:150","msg":"otel disabled"}
+{"level":"debug","time":"2024-10-08T17:57:34.146+0530","caller":"core/lifecycle.go:370","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2024-10-08T17:57:34.147+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2024-10-08T17:57:34.147+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2024-10-08T17:57:34.147+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2024-10-08T17:57:35.379+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 23681"}
+{"level":"debug","time":"2024-10-08T17:57:35.380+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 17196"}
+{"level":"info","time":"2024-10-08T17:57:35.380+0530","caller":"core/lifecycle.go:393","msg":"You can start testing now"}
+{"level":"info","time":"2024-10-08T17:57:35.380+0530","caller":"core/lifecycle.go:394","msg":"Tunnel ID: 2589557"}
+{"level":"debug","time":"2024-10-08T17:57:35.380+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 5306"}
+{"level":"debug","time":"2024-10-08T17:57:35.380+0530","caller":"core/lifecycle.go:395","msg":"Remote Listener Started on Port 28274"}
+{"level":"debug","time":"2024-10-08T17:57:35.391+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 20867"}
+{"level":"debug","time":"2024-10-08T17:57:35.391+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 25360"}
+{"level":"error","time":"2024-10-08T17:57:35.459+0530","caller":"callback/setup.go:96","msg":"ERR::API::WEB::HOK : Unable to call webhook url :  \nPost \"http://127.0.0.1:61685\": EOF "}
+{"level":"debug","time":"2024-10-08T17:57:46.305+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://www.tripadvisor.com:443","tunnelID":"2589557","requestID":1}
+{"level":"debug","time":"2024-10-08T17:57:49.412+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://static.tacdn.com:443","tunnelID":"2589557","requestID":2}
+{"level":"debug","time":"2024-10-08T17:57:49.412+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://static.tacdn.com:443","tunnelID":"2589557","requestID":3}
+{"level":"debug","time":"2024-10-08T17:57:49.412+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://static.tacdn.com:443","tunnelID":"2589557","requestID":4}
+{"level":"debug","time":"2024-10-08T17:57:49.552+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://static.tacdn.com:443","tunnelID":"2589557","requestID":5}
+{"level":"debug","time":"2024-10-08T17:57:49.553+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://static.tacdn.com:443","tunnelID":"2589557","requestID":6}
+{"level":"debug","time":"2024-10-08T17:57:49.755+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://static.tacdn.com:443","tunnelID":"2589557","requestID":7}
+{"level":"debug","time":"2024-10-08T17:57:49.755+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://static.tacdn.com:443","tunnelID":"2589557","requestID":8}
+{"level":"debug","time":"2024-10-08T17:57:54.274+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://js.datadome.co:443","tunnelID":"2589557","requestID":9}
+{"level":"debug","time":"2024-10-08T17:57:54.343+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://dynamic-media-cdn.tripadvisor.com:443","tunnelID":"2589557","requestID":12}
+{"level":"debug","time":"2024-10-08T17:57:54.348+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://dynamic-media-cdn.tripadvisor.com:443","tunnelID":"2589557","requestID":11}
+{"level":"debug","time":"2024-10-08T17:57:54.349+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://cdn.cookielaw.org:443","tunnelID":"2589557","requestID":10}
+{"level":"debug","time":"2024-10-08T17:57:54.349+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://www.tripadvisor.com:443","tunnelID":"2589557","requestID":13}
+{"level":"debug","time":"2024-10-08T17:57:54.349+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://dynamic-media-cdn.tripadvisor.com:443","tunnelID":"2589557","requestID":14}
+{"level":"debug","time":"2024-10-08T17:57:54.350+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://dynamic-media-cdn.tripadvisor.com:443","tunnelID":"2589557","requestID":15}
+{"level":"debug","time":"2024-10-08T17:57:54.435+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://dynamic-media-cdn.tripadvisor.com:443","tunnelID":"2589557","requestID":18}
+{"level":"debug","time":"2024-10-08T17:57:54.435+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://static.tacdn.com:443","tunnelID":"2589557","requestID":16}
+{"level":"debug","time":"2024-10-08T17:57:54.435+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://dynamic-media-cdn.tripadvisor.com:443","tunnelID":"2589557","requestID":17}
+{"level":"debug","time":"2024-10-08T17:57:54.435+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://static.tacdn.com:443","tunnelID":"2589557","requestID":19}
+{"level":"debug","time":"2024-10-08T17:57:54.509+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://static.tacdn.com:443","tunnelID":"2589557","requestID":20}
+{"level":"debug","time":"2024-10-08T17:57:54.515+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://static.tacdn.com:443","tunnelID":"2589557","requestID":21}
+{"level":"debug","time":"2024-10-08T17:57:54.563+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://www.tripadvisor.com:443","tunnelID":"2589557","requestID":23}
+{"level":"debug","time":"2024-10-08T17:57:54.563+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://www.tripadvisor.com:443","tunnelID":"2589557","requestID":24}
+{"level":"debug","time":"2024-10-08T17:57:54.563+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://static.tacdn.com:443","tunnelID":"2589557","requestID":22}
+{"level":"debug","time":"2024-10-08T17:57:54.577+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://www.tripadvisor.com:443","tunnelID":"2589557","requestID":25}
+{"level":"debug","time":"2024-10-08T17:57:54.935+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://www.tripadvisor.com:443","tunnelID":"2589557","requestID":26}
+{"level":"debug","time":"2024-10-08T17:57:55.453+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://accounts.google.com:443","tunnelID":"2589557","requestID":27}
+{"level":"debug","time":"2024-10-08T17:57:55.506+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://www.tripadvisor.com:443","tunnelID":"2589557","requestID":28}
+{"level":"debug","time":"2024-10-08T17:57:56.296+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://api-js.datadome.co:443","tunnelID":"2589557","requestID":29}
+{"level":"debug","time":"2024-10-08T17:57:56.464+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://geolocation.onetrust.com:443","tunnelID":"2589557","requestID":30}
+{"level":"debug","time":"2024-10-08T17:57:58.043+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://accounts.google.com:443","tunnelID":"2589557","requestID":31}
+{"level":"debug","time":"2024-10-08T17:57:59.621+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://fonts.gstatic.com:443","tunnelID":"2589557","requestID":32}
+{"level":"debug","time":"2024-10-08T17:57:59.698+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://fonts.gstatic.com:443","tunnelID":"2589557","requestID":33}
+{"level":"debug","time":"2024-10-08T17:57:59.746+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://www.tripadvisor.com:443","tunnelID":"2589557","requestID":34}
+{"level":"debug","time":"2024-10-08T17:57:59.828+0530","caller":"custom/setup.go:588","msg":"handling connect request for URL https://cdn.cookielaw.org:443","tunnelID":"2589557","requestID":35}
+{"level":"debug","time":"2024-10-08T17:58:00.567+0530","caller":"custom/setup.go:906","msg":"Exiting the sink proxy","tunnelID":"2589557"}
+{"level":"debug","time":"2024-10-08T17:58:00.567+0530","caller":"apiserver/setup.go:144","msg":"Shutting down the server"}
+{"level":"debug","time":"2024-10-08T17:58:00.567+0530","caller":"callback/setup.go:118","msg":"Shutting down the callback agent"}
+{"level":"debug","time":"2024-10-08T17:58:00.567+0530","caller":"core/lifecycle.go:437","msg":"Context cancelled"}
+{"level":"info","time":"2024-10-08T17:58:00.569+0530","caller":"core/lifecycle.go:439","msg":"Stopping tunnel"}
+{"level":"debug","time":"2024-10-08T17:58:00.569+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2024-10-08T17:58:00.569+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"error","time":"2024-10-08T17:58:00.625+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","time":"2024-10-08T17:58:00.720+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"info","time":"2024-10-08T17:58:01.719+0530","caller":"core/lifecycle.go:446","msg":"Tunnel stopped successfully"}
+{"level":"debug","time":"2024-10-08T17:58:01.719+0530","caller":"core/lifecycle.go:448","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-10-08T17:58:01.720+0530","caller":"core/lifecycle.go:449","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-10-08T17:58:01.720+0530","caller":"core/lifecycle.go:451","msg":"All goroutines exited"}
+{"level":"debug","time":"2024-10-08T17:58:01.720+0530","caller":"cmd/lt.go:263","msg":"main: all goroutines have finished."}
+{"level":"info","time":"2024-11-06T17:53:53.752+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2024-11-06T17:53:53.754+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-06T17:53:53.754+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-06T17:53:53.754+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-06T17:53:53.754+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 64913 --callbackURL http://127.0.0.1:64914 --tunnelName MavenSingle"}
+{"level":"debug","time":"2024-11-06T17:53:54.378+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2024-11-06T17:53:54.378+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2024-11-06T17:53:54.766+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2024-11-06T17:53:54.766+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"error","time":"2024-11-06T17:54:39.766+0530","caller":"core/lifecycle.go:92","msg":"Unable to update binary: ERR::BIN::UPD : Unable to update binary Get \"https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe\": context deadline exceeded (Client.Timeout exceeded while awaiting headers) "}
+{"level":"warn","time":"2024-11-06T17:54:39.766+0530","caller":"core/lifecycle.go:93","msg":"Please ensure https://downloads.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2024-11-06T17:54:39.976+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2024-11-06T17:54:39.977+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-06T17:54:39.977+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-06T17:54:39.977+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-06T17:54:39.977+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 64913 --callbackURL http://127.0.0.1:64914 --tunnelName MavenSingle"}
+{"level":"debug","time":"2024-11-06T17:54:40.535+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2024-11-06T17:54:40.535+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2024-11-06T17:54:40.966+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2024-11-06T17:54:40.966+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"error","time":"2024-11-06T17:55:25.966+0530","caller":"core/lifecycle.go:92","msg":"Unable to update binary: ERR::BIN::UPD : Unable to update binary context deadline exceeded (Client.Timeout or context cancellation while reading body) "}
+{"level":"warn","time":"2024-11-06T17:55:25.966+0530","caller":"core/lifecycle.go:93","msg":"Please ensure https://downloads.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2024-11-06T17:55:26.188+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2024-11-06T17:55:26.189+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-06T17:55:26.190+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-06T17:55:26.190+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-06T17:55:26.190+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 64913 --callbackURL http://127.0.0.1:64914 --tunnelName MavenSingle"}
+{"level":"debug","time":"2024-11-06T17:55:26.800+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2024-11-06T17:55:26.800+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2024-11-06T17:55:26.800+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2024-11-06T17:55:26.800+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2024-11-06T17:55:28.912+0530","caller":"updater/updater.go:117","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2024-11-06T17:55:28.912+0530","caller":"updater/updater.go:118","msg":"Please run it again "}
+{"level":"info","time":"2024-11-06T17:55:28.913+0530","caller":"core/lifecycle.go:96","msg":"Update successfully installed. Please restart the binary"}
+{"level":"info","time":"2024-11-06T17:55:29.762+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.7"}
+{"level":"debug","time":"2024-11-06T17:55:29.763+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-06T17:55:29.763+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-06T17:55:29.763+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-06T17:55:29.763+0530","caller":"core/lifecycle.go:68","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 64913 --callbackURL http://127.0.0.1:64914 --tunnelName MavenSingle"}
+{"level":"error","time":"2024-11-06T17:55:30.421+0530","caller":"core/lifecycle.go:76","msg":"Unable to fetch remote config Error while fetching config, status code: 401"}
+{"level":"warn","time":"2024-11-06T17:55:30.421+0530","caller":"core/lifecycle.go:80","msg":"Please ensure https://ts.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2024-11-06T17:55:30.780+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.7"}
+{"level":"debug","time":"2024-11-06T17:55:30.781+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-06T17:55:30.781+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-06T17:55:30.781+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-06T17:55:30.781+0530","caller":"core/lifecycle.go:68","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 64913 --callbackURL http://127.0.0.1:64914 --tunnelName MavenSingle"}
+{"level":"error","time":"2024-11-06T17:55:31.430+0530","caller":"core/lifecycle.go:76","msg":"Unable to fetch remote config Error while fetching config, status code: 401"}
+{"level":"warn","time":"2024-11-06T17:55:31.430+0530","caller":"core/lifecycle.go:80","msg":"Please ensure https://ts.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2024-11-06T17:55:31.739+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.7"}
+{"level":"debug","time":"2024-11-06T17:55:31.740+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-06T17:55:31.740+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-06T17:55:31.740+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-06T17:55:31.740+0530","caller":"core/lifecycle.go:68","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 64913 --callbackURL http://127.0.0.1:64914 --tunnelName MavenSingle"}
+{"level":"error","time":"2024-11-06T17:55:32.383+0530","caller":"core/lifecycle.go:76","msg":"Unable to fetch remote config Error while fetching config, status code: 401"}
+{"level":"warn","time":"2024-11-06T17:55:32.383+0530","caller":"core/lifecycle.go:80","msg":"Please ensure https://ts.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2024-11-06T18:26:46.828+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2024-11-06T18:26:46.830+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-06T18:26:46.830+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-06T18:26:46.830+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-06T18:26:46.831+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 49685 --callbackURL http://127.0.0.1:49686 --tunnelName MavenSingle"}
+{"level":"debug","time":"2024-11-06T18:26:47.517+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2024-11-06T18:26:47.517+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2024-11-06T18:26:47.926+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2024-11-06T18:26:47.926+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2024-11-06T18:26:49.419+0530","caller":"updater/updater.go:117","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2024-11-06T18:26:49.419+0530","caller":"updater/updater.go:118","msg":"Please run it again "}
+{"level":"info","time":"2024-11-06T18:26:49.419+0530","caller":"core/lifecycle.go:96","msg":"Update successfully installed. Please restart the binary"}
+{"level":"info","time":"2024-11-06T18:26:49.738+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.7"}
+{"level":"debug","time":"2024-11-06T18:26:49.740+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-06T18:26:49.740+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-06T18:26:49.740+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-06T18:26:49.740+0530","caller":"core/lifecycle.go:68","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 49685 --callbackURL http://127.0.0.1:49686 --tunnelName MavenSingle"}
+{"level":"error","time":"2024-11-06T18:26:50.488+0530","caller":"core/lifecycle.go:76","msg":"Unable to fetch remote config Error while fetching config, status code: 401"}
+{"level":"warn","time":"2024-11-06T18:26:50.492+0530","caller":"core/lifecycle.go:80","msg":"Please ensure https://ts.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2024-11-19T14:23:44.671+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2024-11-19T14:23:44.685+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-19T14:23:44.685+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-19T14:23:44.685+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-19T14:23:44.685+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 61666 --callbackURL http://127.0.0.1:61667 --tunnelName MavenSingle"}
+{"level":"debug","time":"2024-11-19T14:23:45.342+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2024-11-19T14:23:45.342+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2024-11-19T14:23:45.689+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2024-11-19T14:23:45.690+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2024-11-19T14:23:47.896+0530","caller":"updater/updater.go:117","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2024-11-19T14:23:47.896+0530","caller":"updater/updater.go:118","msg":"Please run it again "}
+{"level":"info","time":"2024-11-19T14:23:47.897+0530","caller":"core/lifecycle.go:96","msg":"Update successfully installed. Please restart the binary"}
+{"level":"info","time":"2024-11-19T14:23:48.855+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.7"}
+{"level":"debug","time":"2024-11-19T14:23:48.855+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-19T14:23:48.855+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-19T14:23:48.855+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-19T14:23:48.855+0530","caller":"core/lifecycle.go:68","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 61666 --callbackURL http://127.0.0.1:61667 --tunnelName MavenSingle"}
+{"level":"error","time":"2024-11-19T14:23:49.554+0530","caller":"core/lifecycle.go:76","msg":"Unable to fetch remote config Error while fetching config, status code: 401"}
+{"level":"warn","time":"2024-11-19T14:23:49.554+0530","caller":"core/lifecycle.go:80","msg":"Please ensure https://ts.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2024-11-20T19:40:43.020+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2024-11-20T19:40:43.023+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-20T19:40:43.023+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-20T19:40:43.023+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-20T19:40:43.023+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 51515 --callbackURL http://127.0.0.1:51516 --tunnelName MavenSingle"}
+{"level":"debug","time":"2024-11-20T19:40:43.888+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2024-11-20T19:40:43.888+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2024-11-20T19:40:44.462+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2024-11-20T19:40:44.462+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"error","time":"2024-11-20T19:41:29.463+0530","caller":"core/lifecycle.go:92","msg":"Unable to update binary: ERR::BIN::UPD : Unable to update binary context deadline exceeded (Client.Timeout or context cancellation while reading body) "}
+{"level":"warn","time":"2024-11-20T19:41:29.463+0530","caller":"core/lifecycle.go:93","msg":"Please ensure https://downloads.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2024-11-20T19:41:29.772+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2024-11-20T19:41:29.773+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-20T19:41:29.773+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-20T19:41:29.773+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-20T19:41:29.773+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 51515 --callbackURL http://127.0.0.1:51516 --tunnelName MavenSingle"}
+{"level":"debug","time":"2024-11-20T19:41:31.209+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2024-11-20T19:41:31.209+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2024-11-20T19:41:32.781+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2024-11-20T19:41:32.782+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"error","time":"2024-11-20T19:42:17.782+0530","caller":"core/lifecycle.go:92","msg":"Unable to update binary: ERR::BIN::UPD : Unable to update binary context deadline exceeded (Client.Timeout or context cancellation while reading body) "}
+{"level":"warn","time":"2024-11-20T19:42:17.783+0530","caller":"core/lifecycle.go:93","msg":"Please ensure https://downloads.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2024-11-20T19:42:18.091+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2024-11-20T19:42:18.093+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-20T19:42:18.093+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-20T19:42:18.093+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-20T19:42:18.093+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 51515 --callbackURL http://127.0.0.1:51516 --tunnelName MavenSingle"}
+{"level":"debug","time":"2024-11-20T19:42:23.760+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2024-11-20T19:42:23.760+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2024-11-20T19:42:24.423+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2024-11-20T19:42:24.424+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2024-11-20T19:43:06.927+0530","caller":"updater/updater.go:117","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2024-11-20T19:43:06.928+0530","caller":"updater/updater.go:118","msg":"Please run it again "}
+{"level":"info","time":"2024-11-20T19:43:06.928+0530","caller":"core/lifecycle.go:96","msg":"Update successfully installed. Please restart the binary"}
+{"level":"info","time":"2024-11-20T19:43:07.129+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.7"}
+{"level":"debug","time":"2024-11-20T19:43:07.130+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-20T19:43:07.130+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-20T19:43:07.130+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-20T19:43:07.130+0530","caller":"core/lifecycle.go:68","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 51515 --callbackURL http://127.0.0.1:51516 --tunnelName MavenSingle"}
+{"level":"error","time":"2024-11-20T19:43:07.950+0530","caller":"core/lifecycle.go:76","msg":"Unable to fetch remote config Error while fetching config, status code: 401"}
+{"level":"warn","time":"2024-11-20T19:43:07.950+0530","caller":"core/lifecycle.go:80","msg":"Please ensure https://ts.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2024-11-20T19:43:08.154+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.7"}
+{"level":"debug","time":"2024-11-20T19:43:08.156+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-20T19:43:08.157+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-20T19:43:08.157+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-20T19:43:08.157+0530","caller":"core/lifecycle.go:68","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 51515 --callbackURL http://127.0.0.1:51516 --tunnelName MavenSingle"}
+{"level":"error","time":"2024-11-20T19:43:08.911+0530","caller":"core/lifecycle.go:76","msg":"Unable to fetch remote config Error while fetching config, status code: 401"}
+{"level":"warn","time":"2024-11-20T19:43:08.911+0530","caller":"core/lifecycle.go:80","msg":"Please ensure https://ts.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2024-11-20T19:43:09.161+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.7"}
+{"level":"debug","time":"2024-11-20T19:43:09.163+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2024-11-20T19:43:09.163+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2024-11-20T19:43:09.163+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2024-11-20T19:43:09.163+0530","caller":"core/lifecycle.go:68","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 51515 --callbackURL http://127.0.0.1:51516 --tunnelName MavenSingle"}
+{"level":"error","time":"2024-11-20T19:43:09.938+0530","caller":"core/lifecycle.go:76","msg":"Unable to fetch remote config Error while fetching config, status code: 401"}
+{"level":"warn","time":"2024-11-20T19:43:09.938+0530","caller":"core/lifecycle.go:80","msg":"Please ensure https://ts.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2025-01-31T14:03:28.278+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2025-01-31T14:03:28.280+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2025-01-31T14:03:28.280+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2025-01-31T14:03:28.280+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2025-01-31T14:03:28.280+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 54947 --callbackURL http://127.0.0.1:54948 --tunnelName MavenSingle"}
+{"level":"debug","time":"2025-01-31T14:03:28.777+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2025-01-31T14:03:28.777+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2025-01-31T14:03:28.964+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-01-31T14:03:28.964+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2025-01-31T14:03:31.185+0530","caller":"updater/updater.go:117","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2025-01-31T14:03:31.185+0530","caller":"updater/updater.go:118","msg":"Please run it again "}
+{"level":"info","time":"2025-01-31T14:03:31.186+0530","caller":"core/lifecycle.go:96","msg":"Update successfully installed. Please restart the binary"}
+{"level":"info","time":"2025-01-31T14:03:32.184+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.10"}
+{"level":"error","time":"2025-01-31T14:03:32.783+0530","caller":"core/lifecycle.go:76","msg":"Unable to fetch remote config Error while fetching config, status code: 401"}
+{"level":"warn","time":"2025-01-31T14:03:32.783+0530","caller":"core/lifecycle.go:80","msg":"Please ensure https://ts.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2025-02-17T17:07:46.723+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2025-02-17T17:07:46.723+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2025-02-17T17:07:46.723+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2025-02-17T17:07:46.723+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2025-02-17T17:07:46.723+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 55071 --callbackURL http://127.0.0.1:55072 --tunnelName MavenSingle"}
+{"level":"debug","time":"2025-02-17T17:07:47.227+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2025-02-17T17:07:47.227+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2025-02-17T17:07:47.379+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-02-17T17:07:47.380+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2025-02-17T17:07:49.193+0530","caller":"updater/updater.go:117","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2025-02-17T17:07:49.193+0530","caller":"updater/updater.go:118","msg":"Please run it again "}
+{"level":"info","time":"2025-02-17T17:07:49.193+0530","caller":"core/lifecycle.go:96","msg":"Update successfully installed. Please restart the binary"}
+{"level":"info","time":"2025-02-17T17:07:49.386+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.12"}
+{"level":"error","time":"2025-02-17T17:07:49.955+0530","caller":"core/lifecycle.go:78","msg":"Unable to fetch remote config Error while fetching config, status code: 401"}
+{"level":"warn","time":"2025-02-17T17:07:49.955+0530","caller":"core/lifecycle.go:82","msg":"Please ensure https://ts.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2025-02-17T17:10:06.609+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2025-02-17T17:10:06.610+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2025-02-17T17:10:06.610+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2025-02-17T17:10:06.610+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2025-02-17T17:10:06.610+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 55198 --callbackURL http://127.0.0.1:55199 --tunnelName MavenSingle"}
+{"level":"debug","time":"2025-02-17T17:10:07.087+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2025-02-17T17:10:07.087+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2025-02-17T17:10:07.290+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-02-17T17:10:07.291+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2025-02-17T17:10:09.993+0530","caller":"updater/updater.go:117","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2025-02-17T17:10:09.993+0530","caller":"updater/updater.go:118","msg":"Please run it again "}
+{"level":"info","time":"2025-02-17T17:10:09.993+0530","caller":"core/lifecycle.go:96","msg":"Update successfully installed. Please restart the binary"}
+{"level":"info","time":"2025-02-17T17:10:10.193+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.12"}
+{"level":"error","time":"2025-02-17T17:10:10.729+0530","caller":"core/lifecycle.go:78","msg":"Unable to fetch remote config Error while fetching config, status code: 401"}
+{"level":"warn","time":"2025-02-17T17:10:10.729+0530","caller":"core/lifecycle.go:82","msg":"Please ensure https://ts.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2025-02-17T17:12:48.392+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2025-02-17T17:12:48.393+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2025-02-17T17:12:48.393+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2025-02-17T17:12:48.393+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2025-02-17T17:12:48.393+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 55220 --callbackURL http://127.0.0.1:55221 --tunnelName MavenSingle"}
+{"level":"debug","time":"2025-02-17T17:12:48.907+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2025-02-17T17:12:48.907+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2025-02-17T17:12:49.336+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-02-17T17:12:49.337+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2025-02-17T17:12:51.514+0530","caller":"updater/updater.go:117","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2025-02-17T17:12:51.515+0530","caller":"updater/updater.go:118","msg":"Please run it again "}
+{"level":"info","time":"2025-02-17T17:12:51.515+0530","caller":"core/lifecycle.go:96","msg":"Update successfully installed. Please restart the binary"}
+{"level":"info","time":"2025-02-17T17:12:51.705+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.12"}
+{"level":"info","time":"2025-02-17T17:12:52.445+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :9090"}
+{"level":"info","time":"2025-02-17T17:12:54.525+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"info","time":"2025-02-17T17:12:58.004+0530","caller":"core/lifecycle.go:402","msg":"You can start testing now"}
+{"level":"info","time":"2025-02-17T17:12:58.004+0530","caller":"core/lifecycle.go:403","msg":"Tunnel ID: 4473123"}
+{"level":"error","time":"2025-02-17T17:12:58.055+0530","caller":"callback/setup.go:96","msg":"ERR::API::WEB::HOK : Unable to call webhook url :  \nPost \"http://127.0.0.1:55221\": EOF "}
+{"level":"info","time":"2025-02-17T17:13:20.274+0530","caller":"core/lifecycle.go:448","msg":"Stopping tunnel"}
+{"level":"info","time":"2025-02-17T17:13:21.338+0530","caller":"core/lifecycle.go:455","msg":"Tunnel stopped successfully"}
+{"level":"info","time":"2025-02-17T17:15:18.753+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2025-02-17T17:15:18.754+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2025-02-17T17:15:18.754+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2025-02-17T17:15:18.754+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2025-02-17T17:15:18.754+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 55299 --callbackURL http://127.0.0.1:55300 --tunnelName MavenSingle"}
+{"level":"debug","time":"2025-02-17T17:15:19.256+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2025-02-17T17:15:19.256+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2025-02-17T17:15:19.466+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-02-17T17:15:19.466+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2025-02-17T17:15:23.529+0530","caller":"updater/updater.go:117","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2025-02-17T17:15:23.529+0530","caller":"updater/updater.go:118","msg":"Please run it again "}
+{"level":"info","time":"2025-02-17T17:15:23.530+0530","caller":"core/lifecycle.go:96","msg":"Update successfully installed. Please restart the binary"}
+{"level":"info","time":"2025-02-17T17:15:23.951+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.12"}
+{"level":"info","time":"2025-02-17T17:15:24.871+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :9090"}
+{"level":"info","time":"2025-02-17T17:15:26.176+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"info","time":"2025-02-17T17:15:29.756+0530","caller":"core/lifecycle.go:402","msg":"You can start testing now"}
+{"level":"info","time":"2025-02-17T17:15:29.756+0530","caller":"core/lifecycle.go:403","msg":"Tunnel ID: 4473160"}
+{"level":"error","time":"2025-02-17T17:15:29.825+0530","caller":"callback/setup.go:96","msg":"ERR::API::WEB::HOK : Unable to call webhook url :  \nPost \"http://127.0.0.1:55300\": EOF "}
+{"level":"info","time":"2025-02-17T17:15:52.181+0530","caller":"core/lifecycle.go:448","msg":"Stopping tunnel"}
+{"level":"info","time":"2025-02-17T17:15:53.270+0530","caller":"core/lifecycle.go:455","msg":"Tunnel stopped successfully"}
+{"level":"info","time":"2025-02-19T12:31:33.901+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2025-02-19T12:31:33.908+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2025-02-19T12:31:33.908+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2025-02-19T12:31:33.908+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2025-02-19T12:31:33.909+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 53107 --callbackURL http://127.0.0.1:53108 --tunnelName MavenSingle"}
+{"level":"debug","time":"2025-02-19T12:31:34.420+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2025-02-19T12:31:34.420+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2025-02-19T12:31:34.467+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-02-19T12:31:34.467+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2025-02-19T12:31:38.840+0530","caller":"updater/updater.go:117","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2025-02-19T12:31:38.841+0530","caller":"updater/updater.go:118","msg":"Please run it again "}
+{"level":"info","time":"2025-02-19T12:31:38.841+0530","caller":"core/lifecycle.go:96","msg":"Update successfully installed. Please restart the binary"}
+{"level":"info","time":"2025-02-19T12:31:39.664+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.12"}
+{"level":"info","time":"2025-02-19T12:31:40.602+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :9090"}
+{"level":"info","time":"2025-02-19T12:31:42.222+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"info","time":"2025-02-19T12:31:46.238+0530","caller":"core/lifecycle.go:402","msg":"You can start testing now"}
+{"level":"info","time":"2025-02-19T12:31:46.238+0530","caller":"core/lifecycle.go:403","msg":"Tunnel ID: 4503568"}
+{"level":"error","time":"2025-02-19T12:31:46.369+0530","caller":"callback/setup.go:96","msg":"ERR::API::WEB::HOK : Unable to call webhook url :  \nPost \"http://127.0.0.1:53108\": EOF "}
+{"level":"info","time":"2025-02-19T12:37:49.199+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.12"}
+{"level":"warn","time":"2025-02-19T12:37:50.260+0530","caller":"custom/setup.go:846","msg":"Port 9090 is already in use. Trying on a random free tcp port."}
+{"level":"info","time":"2025-02-19T12:37:50.263+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T12:37:51.997+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T12:37:54.059+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T12:37:54.059+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T12:37:54.061+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T12:38:04.954+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T12:38:05.907+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T12:38:07.352+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T12:38:07.353+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T12:38:07.353+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T12:38:28.887+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T12:38:29.856+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T12:38:31.322+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T12:38:31.323+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T12:38:31.323+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T12:39:12.484+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T12:39:13.431+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T12:39:14.880+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T12:39:14.880+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T12:39:14.880+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T12:40:33.398+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T12:40:34.477+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T12:40:36.057+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T12:40:36.057+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T12:40:36.061+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T12:42:37.193+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T12:42:38.212+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T12:42:39.747+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T12:42:39.748+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T12:42:39.748+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T12:44:42.183+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T12:44:43.234+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T12:44:44.878+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T12:44:44.878+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T12:44:44.878+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T12:46:45.920+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T12:46:46.915+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T12:46:48.478+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T12:46:48.478+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T12:46:48.478+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T12:48:49.477+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T12:48:50.465+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T12:48:51.949+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T12:48:51.950+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T12:48:51.950+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T12:50:53.467+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T12:50:54.471+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T12:50:55.918+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T12:50:55.924+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T12:50:55.924+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T12:52:57.157+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T12:52:58.168+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T12:52:59.679+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T12:52:59.679+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T12:52:59.679+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T12:55:00.700+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T12:55:01.671+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T12:55:03.133+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T12:55:03.134+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T12:55:03.134+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T12:57:04.205+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T12:57:05.596+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T12:57:07.046+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T12:57:07.046+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T12:57:07.046+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T12:59:08.364+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T12:59:09.343+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T12:59:10.883+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T12:59:10.883+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T12:59:10.884+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T13:01:12.382+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T13:01:13.432+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T13:01:14.924+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T13:01:14.925+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T13:01:14.925+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T13:03:17.913+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T13:03:18.917+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T13:03:20.364+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T13:03:20.364+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T13:03:20.365+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T13:05:21.546+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T13:05:22.515+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T13:05:23.973+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T13:05:23.973+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T13:05:23.974+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T13:07:25.192+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T13:07:26.511+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T13:07:28.197+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T13:07:28.197+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T13:07:28.197+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T13:09:29.229+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T13:09:30.209+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T13:09:31.681+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T13:09:31.681+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T13:09:31.681+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-02-19T13:11:32.875+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :53319"}
+{"level":"info","time":"2025-02-19T13:11:33.888+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-19T13:11:35.337+0530","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com"}
+{"level":"error","time":"2025-02-19T13:11:35.337+0530","caller":"core/lifecycle.go:283","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: MavenSingle is already running for user ankitc@lambdatest.com "}
+{"level":"info","time":"2025-02-19T13:11:35.337+0530","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"error","time":"2025-02-19T13:13:35.338+0530","caller":"cmd/lt.go:228","msg":"Max Tunnel retries exceeded, aborting."}
+{"level":"info","time":"2025-02-19T15:14:46.854+0530","caller":"ws/control.go:158","msg":"Tunnel closure requested from server. Exiting"}
+{"level":"info","time":"2025-02-20T18:07:22.504+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2025-02-20T18:07:22.504+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2025-02-20T18:07:22.504+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2025-02-20T18:07:22.504+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2025-02-20T18:07:22.504+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 53740 --callbackURL http://127.0.0.1:53741 --tunnelName MavenSingle2"}
+{"level":"debug","time":"2025-02-20T18:07:23.055+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2025-02-20T18:07:23.055+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2025-02-20T18:07:23.285+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-02-20T18:07:23.285+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2025-02-20T18:07:26.386+0530","caller":"updater/updater.go:117","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2025-02-20T18:07:26.386+0530","caller":"updater/updater.go:118","msg":"Please run it again "}
+{"level":"info","time":"2025-02-20T18:07:26.387+0530","caller":"core/lifecycle.go:96","msg":"Update successfully installed. Please restart the binary"}
+{"level":"info","time":"2025-02-20T18:07:27.035+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.12"}
+{"level":"info","time":"2025-02-20T18:07:28.122+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :9090"}
+{"level":"info","time":"2025-02-20T18:07:29.798+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"info","time":"2025-02-20T18:07:33.879+0530","caller":"core/lifecycle.go:402","msg":"You can start testing now"}
+{"level":"info","time":"2025-02-20T18:07:33.879+0530","caller":"core/lifecycle.go:403","msg":"Tunnel ID: 4527829"}
+{"level":"info","time":"2025-02-20T18:07:56.897+0530","caller":"core/lifecycle.go:448","msg":"Stopping tunnel"}
+{"level":"error","time":"2025-02-20T18:07:57.437+0530","caller":"callback/setup.go:96","msg":"ERR::API::WEB::HOK : Unable to call webhook url :  \nPost \"http://127.0.0.1:53741\": read tcp 127.0.0.1:53813->127.0.0.1:53741: wsarecv: An existing connection was forcibly closed by the remote host. "}
+{"level":"info","time":"2025-02-20T18:07:58.531+0530","caller":"core/lifecycle.go:455","msg":"Tunnel stopped successfully"}
+{"level":"info","time":"2025-02-20T18:11:04.200+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2025-02-20T18:11:04.202+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2025-02-20T18:11:04.202+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2025-02-20T18:11:04.202+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2025-02-20T18:11:04.202+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 53954 --callbackURL http://127.0.0.1:53955 --tunnelName MavenSingle4"}
+{"level":"debug","time":"2025-02-20T18:11:04.981+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2025-02-20T18:11:04.981+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2025-02-20T18:11:04.981+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-02-20T18:11:04.981+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2025-02-20T18:11:09.963+0530","caller":"updater/updater.go:117","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2025-02-20T18:11:09.963+0530","caller":"updater/updater.go:118","msg":"Please run it again "}
+{"level":"info","time":"2025-02-20T18:11:09.964+0530","caller":"core/lifecycle.go:96","msg":"Update successfully installed. Please restart the binary"}
+{"level":"info","time":"2025-02-20T18:11:10.498+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.12"}
+{"level":"info","time":"2025-02-20T18:11:11.586+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :9090"}
+{"level":"info","time":"2025-02-20T18:11:13.047+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"info","time":"2025-02-20T18:11:17.088+0530","caller":"core/lifecycle.go:402","msg":"You can start testing now"}
+{"level":"info","time":"2025-02-20T18:11:17.088+0530","caller":"core/lifecycle.go:403","msg":"Tunnel ID: 4527867"}
+{"level":"info","time":"2025-02-20T18:11:47.202+0530","caller":"core/lifecycle.go:448","msg":"Stopping tunnel"}
+{"level":"error","time":"2025-02-20T18:11:47.250+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","time":"2025-02-20T18:11:47.414+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","time":"2025-02-20T18:11:47.540+0530","caller":"ssh/ssh.go:252","msg":"Unable to connect to 127.0.0.1:9090, error: dial tcp 127.0.0.1:9090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"error","time":"2025-02-20T18:11:47.747+0530","caller":"callback/setup.go:96","msg":"ERR::API::WEB::HOK : Unable to call webhook url :  \nPost \"http://127.0.0.1:53955\": read tcp 127.0.0.1:53973->127.0.0.1:53955: wsarecv: An existing connection was forcibly closed by the remote host. "}
+{"level":"info","time":"2025-02-20T18:11:48.751+0530","caller":"core/lifecycle.go:455","msg":"Tunnel stopped successfully"}
+{"level":"info","time":"2025-02-20T18:14:39.076+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2025-02-20T18:14:39.077+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2025-02-20T18:14:39.078+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2025-02-20T18:14:39.078+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2025-02-20T18:14:39.078+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 54111 --callbackURL http://127.0.0.1:54112 --tunnelName MavenSingle2"}
+{"level":"debug","time":"2025-02-20T18:14:39.939+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2025-02-20T18:14:39.939+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2025-02-20T18:14:40.070+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-02-20T18:14:40.070+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2025-02-20T18:14:52.138+0530","caller":"updater/updater.go:117","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2025-02-20T18:14:52.138+0530","caller":"updater/updater.go:118","msg":"Please run it again "}
+{"level":"info","time":"2025-02-20T18:14:52.138+0530","caller":"core/lifecycle.go:96","msg":"Update successfully installed. Please restart the binary"}
+{"level":"info","time":"2025-02-20T18:14:52.499+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.12"}
+{"level":"info","time":"2025-02-20T18:14:53.402+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :9090"}
+{"level":"info","time":"2025-02-20T18:14:55.507+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"info","time":"2025-02-20T18:14:59.544+0530","caller":"core/lifecycle.go:402","msg":"You can start testing now"}
+{"level":"info","time":"2025-02-20T18:14:59.544+0530","caller":"core/lifecycle.go:403","msg":"Tunnel ID: 4527963"}
+{"level":"info","time":"2025-02-20T18:15:26.867+0530","caller":"core/lifecycle.go:448","msg":"Stopping tunnel"}
+{"level":"error","time":"2025-02-20T18:15:27.417+0530","caller":"callback/setup.go:96","msg":"ERR::API::WEB::HOK : Unable to call webhook url :  \nPost \"http://127.0.0.1:54112\": read tcp 127.0.0.1:54131->127.0.0.1:54112: wsarecv: An existing connection was forcibly closed by the remote host. "}
+{"level":"info","time":"2025-02-20T18:15:28.502+0530","caller":"core/lifecycle.go:455","msg":"Tunnel stopped successfully"}
+{"level":"info","time":"2025-02-20T18:20:02.085+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2025-02-20T18:20:02.091+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2025-02-20T18:20:02.091+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2025-02-20T18:20:02.091+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2025-02-20T18:20:02.095+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 54263 --callbackURL http://127.0.0.1:54264 --tunnelName MavenSingle"}
+{"level":"debug","time":"2025-02-20T18:20:02.735+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2025-02-20T18:20:02.735+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2025-02-20T18:20:02.803+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-02-20T18:20:02.803+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2025-02-20T18:20:10.773+0530","caller":"updater/updater.go:117","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2025-02-20T18:20:10.773+0530","caller":"updater/updater.go:118","msg":"Please run it again "}
+{"level":"info","time":"2025-02-20T18:20:10.773+0530","caller":"core/lifecycle.go:96","msg":"Update successfully installed. Please restart the binary"}
+{"level":"info","time":"2025-02-20T18:20:11.231+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.12"}
+{"level":"info","time":"2025-02-20T18:20:12.478+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :9090"}
+{"level":"info","time":"2025-02-20T18:20:14.169+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"info","time":"2025-02-20T18:20:18.315+0530","caller":"core/lifecycle.go:402","msg":"You can start testing now"}
+{"level":"info","time":"2025-02-20T18:20:18.315+0530","caller":"core/lifecycle.go:403","msg":"Tunnel ID: 4528028"}
+{"level":"error","time":"2025-02-20T18:20:18.410+0530","caller":"callback/setup.go:96","msg":"ERR::API::WEB::HOK : Unable to call webhook url :  \nPost \"http://127.0.0.1:54264\": EOF "}
+{"level":"info","time":"2025-02-20T18:20:47.046+0530","caller":"core/lifecycle.go:448","msg":"Stopping tunnel"}
+{"level":"info","time":"2025-02-20T18:20:48.669+0530","caller":"core/lifecycle.go:455","msg":"Tunnel stopped successfully"}
+{"level":"info","time":"2025-02-20T18:24:56.533+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2025-02-20T18:24:56.533+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2025-02-20T18:24:56.533+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2025-02-20T18:24:56.533+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2025-02-20T18:24:56.533+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 54460 --callbackURL http://127.0.0.1:54461 --tunnelName MavenSingle"}
+{"level":"debug","time":"2025-02-20T18:24:57.196+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2025-02-20T18:24:57.196+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2025-02-20T18:24:57.284+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-02-20T18:24:57.284+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"info","time":"2025-02-20T18:25:03.281+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2025-02-20T18:25:03.284+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2025-02-20T18:25:03.285+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2025-02-20T18:25:03.285+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2025-02-20T18:25:03.285+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 54472 --callbackURL http://127.0.0.1:54473 --tunnelName MavenSingle2"}
+{"level":"info","time":"2025-02-20T18:25:03.606+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2025-02-20T18:25:03.609+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2025-02-20T18:25:03.609+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2025-02-20T18:25:03.609+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2025-02-20T18:25:03.610+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 54474 --callbackURL http://127.0.0.1:54475 --tunnelName MavenSingle3"}
+{"level":"info","time":"2025-02-20T18:25:03.746+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2025-02-20T18:25:03.749+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2025-02-20T18:25:03.749+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2025-02-20T18:25:03.749+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2025-02-20T18:25:03.749+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 54476 --callbackURL http://127.0.0.1:54477 --tunnelName MavenSingle4"}
+{"level":"info","time":"2025-02-20T18:25:03.816+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.1"}
+{"level":"debug","time":"2025-02-20T18:25:03.820+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2025-02-20T18:25:03.820+0530","caller":"core/lifecycle.go:42","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2025-02-20T18:25:03.820+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"debug","time":"2025-02-20T18:25:03.821+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user ankitclambdatest --key ***** --infoAPIPort 54478 --callbackURL http://127.0.0.1:54479 --tunnelName MavenSingle1"}
+{"level":"debug","time":"2025-02-20T18:25:03.907+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2025-02-20T18:25:03.907+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2025-02-20T18:25:04.086+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-02-20T18:25:04.086+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2025-02-20T18:25:04.229+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2025-02-20T18:25:04.229+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2025-02-20T18:25:04.252+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-02-20T18:25:04.253+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2025-02-20T18:25:04.389+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2025-02-20T18:25:04.390+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2025-02-20T18:25:04.390+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"info","time":"2025-02-20T18:25:04.390+0530","caller":"core/lifecycle.go:88","msg":"New update available for the tunnel client. Downloading update"}
+{"level":"debug","time":"2025-02-20T18:25:04.549+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-02-20T18:25:04.549+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2025-02-20T18:25:04.693+0530","caller":"updater/updater.go:85","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-02-20T18:25:04.693+0530","caller":"updater/updater.go:86","msg":"Download url: https://downloads.lambdatest.com/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2025-02-20T18:25:05.052+0530","caller":"updater/updater.go:117","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2025-02-20T18:25:05.052+0530","caller":"updater/updater.go:118","msg":"Please run it again "}
+{"level":"info","time":"2025-02-20T18:25:05.053+0530","caller":"core/lifecycle.go:96","msg":"Update successfully installed. Please restart the binary"}
+{"level":"info","time":"2025-02-20T18:25:05.563+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.12"}
+{"level":"info","time":"2025-02-20T18:25:07.167+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :9090"}
+{"level":"info","time":"2025-02-20T18:25:10.314+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"error","time":"2025-02-20T18:25:14.692+0530","caller":"core/lifecycle.go:92","msg":"Unable to update binary: ERR::BIN::UPD : Unable to update binary rename C:\\Users\\ankitc\\Downloads\\java-testng-selenium-master\\java-testng-selenium-master\\.lambdatest\\LT.exe C:\\Users\\ankitc\\Downloads\\java-testng-selenium-master\\java-testng-selenium-master\\.lambdatest\\.LT.exe.old: Access is denied. "}
+{"level":"warn","time":"2025-02-20T18:25:14.692+0530","caller":"core/lifecycle.go:93","msg":"Please ensure https://downloads.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2025-02-20T18:25:15.045+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.12"}
+{"level":"error","time":"2025-02-20T18:25:15.481+0530","caller":"core/lifecycle.go:92","msg":"Unable to update binary: ERR::BIN::UPD : Unable to update binary rename C:\\Users\\ankitc\\Downloads\\java-testng-selenium-master\\java-testng-selenium-master\\.lambdatest\\LT.exe C:\\Users\\ankitc\\Downloads\\java-testng-selenium-master\\java-testng-selenium-master\\.lambdatest\\.LT.exe.old: Access is denied. "}
+{"level":"warn","time":"2025-02-20T18:25:15.481+0530","caller":"core/lifecycle.go:93","msg":"Please ensure https://downloads.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2025-02-20T18:25:15.682+0530","caller":"core/lifecycle.go:402","msg":"You can start testing now"}
+{"level":"info","time":"2025-02-20T18:25:15.682+0530","caller":"core/lifecycle.go:403","msg":"Tunnel ID: 4528082"}
+{"level":"error","time":"2025-02-20T18:25:15.721+0530","caller":"callback/setup.go:96","msg":"ERR::API::WEB::HOK : Unable to call webhook url :  \nPost \"http://127.0.0.1:54461\": EOF "}
+{"level":"info","time":"2025-02-20T18:25:16.073+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.12"}
+{"level":"warn","time":"2025-02-20T18:25:16.164+0530","caller":"custom/setup.go:846","msg":"Port 9090 is already in use. Trying on a random free tcp port."}
+{"level":"info","time":"2025-02-20T18:25:16.166+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :54516"}
+{"level":"warn","time":"2025-02-20T18:25:16.918+0530","caller":"custom/setup.go:846","msg":"Port 9090 is already in use. Trying on a random free tcp port."}
+{"level":"info","time":"2025-02-20T18:25:16.923+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :54523"}
+{"level":"error","time":"2025-02-20T18:25:17.809+0530","caller":"core/lifecycle.go:92","msg":"Unable to update binary: ERR::BIN::UPD : Unable to update binary rename C:\\Users\\ankitc\\Downloads\\java-testng-selenium-master\\java-testng-selenium-master\\.lambdatest\\LT.exe C:\\Users\\ankitc\\Downloads\\java-testng-selenium-master\\java-testng-selenium-master\\.lambdatest\\.LT.exe.old: Access is denied. "}
+{"level":"warn","time":"2025-02-20T18:25:17.809+0530","caller":"core/lifecycle.go:93","msg":"Please ensure https://downloads.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2025-02-20T18:25:17.917+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"info","time":"2025-02-20T18:25:18.084+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.12"}
+{"level":"error","time":"2025-02-20T18:25:18.271+0530","caller":"core/lifecycle.go:92","msg":"Unable to update binary: ERR::BIN::UPD : Unable to update binary rename C:\\Users\\ankitc\\Downloads\\java-testng-selenium-master\\java-testng-selenium-master\\.lambdatest\\LT.exe C:\\Users\\ankitc\\Downloads\\java-testng-selenium-master\\java-testng-selenium-master\\.lambdatest\\.LT.exe.old: Access is denied. "}
+{"level":"warn","time":"2025-02-20T18:25:18.271+0530","caller":"core/lifecycle.go:93","msg":"Please ensure https://downloads.lambdatest.com is reachable from your network."}
+{"level":"info","time":"2025-02-20T18:25:18.507+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"info","time":"2025-02-20T18:25:18.520+0530","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.12"}
+{"level":"warn","time":"2025-02-20T18:25:18.930+0530","caller":"custom/setup.go:846","msg":"Port 9090 is already in use. Trying on a random free tcp port."}
+{"level":"info","time":"2025-02-20T18:25:18.940+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :54533"}
+{"level":"warn","time":"2025-02-20T18:25:19.530+0530","caller":"custom/setup.go:846","msg":"Port 9090 is already in use. Trying on a random free tcp port."}
+{"level":"info","time":"2025-02-20T18:25:19.530+0530","caller":"custom/setup.go:861","msg":"Tunnel binary started on port :54543"}
+{"level":"info","time":"2025-02-20T18:25:20.473+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"info","time":"2025-02-20T18:25:21.057+0530","caller":"core/lifecycle.go:280","msg":"Launching tunnel"}
+{"level":"info","time":"2025-02-20T18:25:21.902+0530","caller":"core/lifecycle.go:402","msg":"You can start testing now"}
+{"level":"info","time":"2025-02-20T18:25:21.902+0530","caller":"core/lifecycle.go:403","msg":"Tunnel ID: 4528083"}
+{"level":"info","time":"2025-02-20T18:25:23.566+0530","caller":"core/lifecycle.go:402","msg":"You can start testing now"}
+{"level":"info","time":"2025-02-20T18:25:23.566+0530","caller":"core/lifecycle.go:403","msg":"Tunnel ID: 4528084"}
+{"level":"info","time":"2025-02-20T18:25:25.585+0530","caller":"core/lifecycle.go:402","msg":"You can start testing now"}
+{"level":"info","time":"2025-02-20T18:25:25.585+0530","caller":"core/lifecycle.go:403","msg":"Tunnel ID: 4528085"}
+{"level":"info","time":"2025-02-20T18:25:26.193+0530","caller":"core/lifecycle.go:402","msg":"You can start testing now"}
+{"level":"info","time":"2025-02-20T18:25:26.193+0530","caller":"core/lifecycle.go:403","msg":"Tunnel ID: 4528086"}
+{"level":"info","time":"2025-02-20T18:25:46.790+0530","caller":"core/lifecycle.go:448","msg":"Stopping tunnel"}
+{"level":"info","time":"2025-02-20T18:25:48.355+0530","caller":"core/lifecycle.go:455","msg":"Tunnel stopped successfully"}
+{"level":"info","time":"2025-02-20T18:25:58.933+0530","caller":"core/lifecycle.go:448","msg":"Stopping tunnel"}
+{"level":"info","time":"2025-02-20T18:26:00.498+0530","caller":"core/lifecycle.go:455","msg":"Tunnel stopped successfully"}
+{"level":"error","time":"2025-02-20T18:48:34.165+0530","caller":"callback/setup.go:96","msg":"ERR::API::WEB::HOK : Unable to call webhook url :  \nPost \"http://127.0.0.1:54475\": read tcp 127.0.0.1:54562->127.0.0.1:54475: wsarecv: An existing connection was forcibly closed by the remote host. "}
+{"level":"error","time":"2025-02-20T18:48:34.165+0530","caller":"callback/setup.go:96","msg":"ERR::API::WEB::HOK : Unable to call webhook url :  \nPost \"http://127.0.0.1:54477\": read tcp 127.0.0.1:54546->127.0.0.1:54477: wsarecv: An existing connection was forcibly closed by the remote host. "}
+{"level":"error","time":"2025-02-20T18:48:34.167+0530","caller":"callback/setup.go:96","msg":"ERR::API::WEB::HOK : Unable to call webhook url :  \nPost \"http://127.0.0.1:54473\": read tcp 127.0.0.1:54574->127.0.0.1:54473: wsarecv: An existing connection was forcibly closed by the remote host. "}

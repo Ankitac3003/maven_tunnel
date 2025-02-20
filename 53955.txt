@@ -1,0 +1,1 @@
+{"status":"SUCCESS","data":{"id":4527867,"localProxyPort":"9090","tunnelName":"MavenSingle4","environment":"prod","version":"3.2.12","mode":"ssh","sshConnType":"over_22"}}
